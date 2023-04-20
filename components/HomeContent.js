@@ -6,11 +6,9 @@ export default function HomeContent() {
 			<div className="min-h-screen bg-gray-100 flex flex-col justify-center">
 				<div className="relative m-3 flex flex-wrap mx-auto justify-center">
 					<div className="min-w-[340px]flex flex-col group">
-						<div
-							data-aos="fade-up"
-							data-aos-anchor-placement="center-bottom"
-							className="h-48 md:h-56 lg:h-[24rem] w-full bg-red-500 border-2 border-white flex items-center justify-center text-white text-base mb-3 md:mb-5 overflow-hidden relative">
+						<div className="h-48 md:h-56 lg:h w-full bg-red-500 border-2 border-white flex items-center justify-center text-white text-base mb-3 md:mb-5 overflow-hidden relative">
 							<img
+								data-aos="fade-up"
 								src="/sesya_insta_logo.png"
 								className="object-cover w-full h-full scale-100 group-hover:scale-110 transition-all duration-400"
 								alt=""
@@ -22,7 +20,6 @@ export default function HomeContent() {
 						<a
 							data-aos="fade-right"
 							data-aos-duration="3000"
-							data-aos-easing="ease-in-sine"
 							className=" block text-black text-center hover:text-primary transition-colors duration-150 text-lg md:text-xl mb-1">
 							SESYA
 						</a>
@@ -30,7 +27,6 @@ export default function HomeContent() {
 						<p
 							data-aos="fade-right"
 							data-aos-duration="3000"
-							data-aos-easing="ease-in-sine"
 							className="mb-4 font-light  text-sm md:text-sm text-center text-gray-400">
 							Clothing Made with Passion
 						</p>
