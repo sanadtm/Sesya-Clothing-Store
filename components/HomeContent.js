@@ -6,9 +6,10 @@ export default function HomeContent() {
 			<div className="min-h-screen bg-gray-100 flex flex-col justify-center">
 				<div className="relative m-3 flex flex-wrap mx-auto justify-center">
 					<div className="min-w-[340px]flex flex-col group">
-						<div className="h-48 md:h-56 lg:h w-full bg-red-500 border-2 border-white flex items-center justify-center text-white text-base mb-3 md:mb-5 overflow-hidden relative">
+						<div
+							data-aos="fade-left"
+							className="h-48 md:h-56 lg:h w-full bg-red-500 border-2 border-white flex items-center justify-center text-white text-base mb-3 md:mb-5 overflow-hidden relative">
 							<img
-								data-aos="fade-up"
 								src="/sesya_insta_logo.png"
 								className="object-cover w-full h-full scale-100 group-hover:scale-110 transition-all duration-400"
 								alt=""
