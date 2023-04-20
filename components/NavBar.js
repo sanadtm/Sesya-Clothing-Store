@@ -20,10 +20,11 @@ export default function NavBar() {
 							<i className="fas fa-bars"></i>
 						</button>
 					</div>
+
 					<div
-						className={"lg:flex flex-grow items-center" + (navbarOpen ? " flex" : " hidden")}
+						className={"lg:flex flex-grow items-center" + (navbarOpen ? " flex" : "visible")}
 						id="example-navbar-danger">
-						<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+						<ul className="flex flex-row lg:flex-row list-none lg:ml-auto">
 							<li className="nav-item">
 								<a
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
