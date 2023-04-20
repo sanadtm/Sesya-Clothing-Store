@@ -16,7 +16,7 @@ export default function Items() {
                         href="./single_post.html"
                         className=" block text-black text-center hover:text-primary transition-colors duration-150 text-lg md:text-xl mb-1"
                     >
-                        Wild West Hoodie
+                        SESTA
                     </a>
 
                     <p className="mb-4 font-light  text-sm md:text-sm text-center text-gray-400">
