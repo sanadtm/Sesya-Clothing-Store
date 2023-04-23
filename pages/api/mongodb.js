@@ -20,4 +20,3 @@ async function MongoConnect() {
         await client.close();
     }
 }
-export 
