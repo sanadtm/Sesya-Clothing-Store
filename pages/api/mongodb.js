@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
-const uri = "mongodb+srv://sanadtm:<password>@sesya-data.859imlt.mongodb.net/?retryWrites=true&w=majority";
+
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
     serverApi: {
@@ -8,7 +8,7 @@ const client = new MongoClient(uri, {
         deprecationErrors: true,
     },
 });
-export default async function MongoConnect() {
+async function MongoConnect() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
@@ -20,3 +20,4 @@ export default async function MongoConnect() {
         await client.close();
     }
 }
+export 
