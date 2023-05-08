@@ -1,6 +1,7 @@
 /** @format */
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 export default function NavBar() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
 	return (
@@ -38,7 +39,7 @@ export default function NavBar() {
 							<li className="nav-item">
 								<a
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-									href="#pablo">
+									href="products">
 									<i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">View Products</span>
 								</a>

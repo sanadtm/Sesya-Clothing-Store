@@ -2,9 +2,10 @@
 
 export default function Items() {
 	return (
-		<div className="min-h-screen bg-gray-100 flex flex-col justify-center">
+		<div className=" bg-gray-100 flex flex-col justify-center">
 			<div className="relative m-3 flex flex-wrap mx-auto justify-center">
-				<div className="min-w-[340px]flex flex-col group">
+				<div className="">
+					PRODUCT
 					<div
 						data-aos="fade-up"
 						data-aos-anchor-placement="center-bottom"
@@ -17,7 +18,6 @@ export default function Items() {
 
 						<div className="absolute z-10 border-4 border-primary w-[95%] h-[95%] invisible group-hover:visible opacity-0 group-hover:opacity-100 group-hover:scale-90 transition-all duration-500"></div>
 					</div>
-
 					<a
 						data-aos="fade-right"
 						data-aos-duration="3000"
@@ -25,7 +25,6 @@ export default function Items() {
 						className=" block text-black text-center hover:text-primary transition-colors duration-150 text-lg md:text-xl mb-1">
 						SESYA
 					</a>
-
 					<p
 						data-aos="fade-right"
 						data-aos-duration="3000"
@@ -33,7 +32,6 @@ export default function Items() {
 						className="mb-4 font-light  text-sm md:text-sm text-center text-gray-400">
 						Clothing Made with Passion
 					</p>
-
 					<div className="flex justify-center gap-x-3">
 						{/* <a
 							href="#"
