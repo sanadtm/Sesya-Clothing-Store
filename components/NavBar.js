@@ -29,36 +29,36 @@ export default function NavBar() {
 						id="example-navbar-danger">
 						<ul className="flex flex-row lg:flex-row list-none lg:ml-auto">
 							<li className="nav-item">
-								<a
+								<Link
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 									href="#pablo">
 									<i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">Buy</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a
+								<Link
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 									href="/products">
 									<i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">View Products</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a
+								<Link
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 									href="/about">
 									<i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">About SESYA</span>
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a
+								<Link
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 									href="/login">
 									<i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">Admin Login</span>
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
