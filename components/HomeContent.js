@@ -1,5 +1,6 @@
 /** @format */
-
+import Link from "next/link";
+import Image from "next/image";
 export default function HomeContent() {
 	return (
 		<>
@@ -9,7 +10,7 @@ export default function HomeContent() {
 						<div
 							data-aos="fade-left"
 							className="rounded-full h-78 md:h-86 lg:h w-full bg-red-500 border-2 border-white flex items-center justify-center text-white text-base mb-3 md:mb-5 overflow-hidden relative">
-							<img
+							<Image
 								src="/sesya_insta_logo.png"
 								className="rounded-full object-cover w-full h-full scale-100 group-hover:scale-110 transition-all duration-400"
 								alt=""
@@ -18,12 +19,13 @@ export default function HomeContent() {
 							<div className="absolute z-10 border-4 border-primary w-[95%] h-[95%] invisible group-hover:visible opacity-0 group-hover:opacity-100 group-hover:scale-90 transition-all duration-500"></div>
 						</div>
 
-						<a
+						<Link
+							href="/"
 							data-aos="fade-right"
 							data-aos-duration="3000"
 							className=" block text-black text-center hover:text-primary transition-colors duration-150 text-lg md:text-xl mb-1">
 							SESYA
-						</a>
+						</Link>
 
 						<p
 							data-aos="fade-right"

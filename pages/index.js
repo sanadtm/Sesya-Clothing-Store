@@ -1,7 +1,7 @@
 /** @format */
 
 import Head from "next/head";
-import Items from "@/components/item";
+
 import HomeContent from "@/components/HomeContent";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
