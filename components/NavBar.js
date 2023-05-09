@@ -13,7 +13,7 @@ export default function NavBar() {
 					<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 						<a
 							className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-							href="#pablo">
+							href="/">
 							SESYA
 						</a>
 						<button
@@ -39,7 +39,7 @@ export default function NavBar() {
 							<li className="nav-item">
 								<a
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-									href="products">
+									href="/products">
 									<i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">View Products</span>
 								</a>
@@ -47,9 +47,17 @@ export default function NavBar() {
 							<li className="nav-item">
 								<a
 									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-									href="#pablo">
+									href="/about">
 									<i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
 									<span className="ml-2">About SESYA</span>
+								</a>
+							</li>
+							<li className="nav-item">
+								<a
+									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+									href="/login">
+									<i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
+									<span className="ml-2">Admin Login</span>
 								</a>
 							</li>
 						</ul>

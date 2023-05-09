@@ -3,7 +3,7 @@
 export default function HomeContent() {
 	return (
 		<>
-			<div className=" bg-gray-100 flex flex-col p-10 justify-center">
+			<div className=" min-h-screen bg-gray-100 flex flex-col p-10 justify-center">
 				<div className="relative m-3 flex flex-wrap mx-auto justify-center">
 					<div className="min-w-[340px]flex flex-col group">
 						<div

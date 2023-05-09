@@ -3,9 +3,9 @@
 import Head from "next/head";
 import Items from "../components/Items";
 import HomeContent from "@/components/HomeContent";
+import LoginForm from "@/components/LoginForm";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import ListProducts from "@/components/ListProducts";
 export default function Products() {
 	return (
 		<>
@@ -14,8 +14,7 @@ export default function Products() {
 				<link rel="Icon" href="/sesya_insta_logo.png" alt="my personal Logo" />
 			</Head>
 			<NavBar />
-			<ListProducts />
-
+			<LoginForm />
 			<Footer />
 		</>
 	);
