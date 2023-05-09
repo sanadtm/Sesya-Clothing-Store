@@ -1,19 +1,4 @@
-/**
- * This example requires some changes to your config:
- *
- *   ```
- *   // tailwind.config.js
- *   module.exports = {
- *     // ...
- *     plugins: [
- *       // ...
- *       require('@tailwindcss/forms'),
- *     ],
- *   }
- *   ```
- *
- * @format
- */
+/** @format */
 
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
@@ -245,7 +230,7 @@ export default function AddProduct() {
 				<div className="border-b border-gray-900/10 pb-12">
 					<h2 className="text-base font-semibold leading-7 text-gray-900">Notifications</h2>
 					<p className="mt-1 text-sm leading-6 text-gray-600">
-						We'll always let you know about important changes, but you pick what else you want to hear
+						We will always let you know about important changes, but you pick what else you want to hear
 						about.
 					</p>
 
